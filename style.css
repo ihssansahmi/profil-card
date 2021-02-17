@@ -1,0 +1,81 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+
+*{
+    font-family: "Kumbh Sans", sans-serif;
+}
+body,html{
+    font-size: 18px;
+    background-color:hsl(185, 75%, 39%) !important ;
+    margin: 0 ;
+    height: 100%;
+    overflow: hidden;
+}
+.card-title,.first{
+    color: hsl(229, 23%, 23%) !important;
+    font-weight: 700 !important;
+}
+.gray{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 12px;
+}
+.number{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+.first{
+    text-align: center;
+}
+.profil{
+    position: absolute;
+    margin-top: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+.rounded-circle{
+    margin: 5px;
+}
+.card{
+    vertical-align: middle !important;
+    border-radius: 15px !important;
+    padding: 0 !important;
+    margin: auto !important;
+    border: none !important;
+ 
+}
+.after-profil{
+    margin-top: 85px;
+}
+.card-footer{
+    background-color: white !important;
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    margin-top: 25px;
+}
+.img-top{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    margin: 0;
+}
+.top{
+    position: absolute;
+    width: 100%;
+    margin-left: -21rem;
+    margin-top: -31rem;
+}
+.bottom{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -40rem;
+    margin-right: -33rem;
+}
+p{
+    margin: 0 !important;
+}
+.footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
